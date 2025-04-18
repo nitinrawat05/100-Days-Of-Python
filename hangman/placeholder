@@ -1,1 +1,12 @@
 
+
+chosen_word = random.choice(["python", "java", "kotlin", "javascript"])
+print(chosen_word)
+guess =input("Guess a letter: ")
+
+for i in range(len(chosen_word)):
+    if chosen_word[i] == guess:
+        print("Right")
+
+    else:
+        print("Wrong")
